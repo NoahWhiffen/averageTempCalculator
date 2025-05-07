@@ -29,7 +29,15 @@ public class TemperatureAnalyzer {
         System.out.println("Average temperature: " + average);
 
     // Using the average, Find how many temps are higher than average
-    
+    int numAboveAverage = 0;
+    for (int temp : temperatures) {
+        if (temp > average) {
+            numAboveAverage++;
+        }
+    }
+
+    System.out.println(numAboveAverage + "days were above average temperature.")
+
     scanner.close();
     }
 }

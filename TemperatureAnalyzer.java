@@ -36,7 +36,7 @@ public class TemperatureAnalyzer {
         }
     }
 
-    System.out.println(numAboveAverage + "days were above average temperature.")
+    System.out.println(numAboveAverage + " days were above average temperature.");
 
     scanner.close();
     }
